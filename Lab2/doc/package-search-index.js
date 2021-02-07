@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"bstu.fit"},{"l":"bstu.fit.walko"},{"l":"bstu.fit.walko.basejava"}];updateSearchResults();
