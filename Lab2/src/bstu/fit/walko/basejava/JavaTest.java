@@ -43,7 +43,7 @@ public class JavaTest {
         System.out.println("Task B:");
         System.out.println(str + ch);
         System.out.println(str + number);
-        System.out.println(str + 123.456f);
+        System.out.println(str + 123.456);
 
         littleNumber = (byte)(littleNumber + number);
         number = (int)(12.32 + bigNumber);
