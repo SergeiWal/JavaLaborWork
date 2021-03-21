@@ -9,7 +9,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-
 public class Client {
 
     public static  final Logger Log = Logger.getLogger(Client.class);
@@ -93,7 +92,7 @@ public class Client {
         catch (Exception e)
         {
             System.out.println(e.getMessage());
-            Log.info("This card did'nt found ...");
+            Log.info("This card didn't found ...");
         }
     }
 

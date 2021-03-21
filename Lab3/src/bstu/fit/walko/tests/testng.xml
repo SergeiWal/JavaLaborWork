@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClientGURU" parallel="false">
+    <parameter name ="scoreNumber" value ="111111"></parameter>
+    <parameter name ="balance" value ="24654.235"></parameter>
+    <parameter name ="cardNumber" value ="2341233214"></parameter>
+    <parameter name ="SVV" value ="123"></parameter>
+    <parameter name ="signature" value ="sigurg"></parameter>
+    <test name ="ClientTest">
+      <classes>
+          <class name ="bstu.fit.walko.tests.ClientTest"></class>
+      </classes>
+    </test>
+</suite>

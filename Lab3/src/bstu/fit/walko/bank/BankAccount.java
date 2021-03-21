@@ -22,6 +22,10 @@ public abstract class BankAccount {
         return beginDate;
     }
 
+    public boolean isBlocked() {
+        return isBlocked;
+    }
+
     public void setScoreNumber(long scoreNumber) {
         this.scoreNumber = scoreNumber;
     }

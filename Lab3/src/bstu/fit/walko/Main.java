@@ -166,7 +166,6 @@ public class Main {
                     new StaxStreamProcessor(Files.newInputStream(Path.of("files/info.xml")));
             XMLStreamReader reader = processor.getReader();
             while (processor.startElement("Card", null)) {
-                //System.out.println(processor.getAttribute("name") +":" + processor.getText());
 
                 CardType cardType = CardType.MASTER_CARD;
 
