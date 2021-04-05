@@ -71,7 +71,7 @@ public class ClientTest {
         assertEquals(card2.getBalance(), balanceBeforePayment, 10, "Test 2 failed: error in payment>");
     }
 
-
+   // @Ignore
     @Parameters({"scoreNumber","balance","cardNumber","SVV","signature"})
     //@Ignore
     @Test

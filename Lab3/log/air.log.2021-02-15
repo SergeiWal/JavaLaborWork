@@ -1,0 +1,20 @@
+15.02.2021 22:49:44 [main] INFO  bstu.fit.walko.Main  - Starting program_____________________________
+15.02.2021 22:49:44 [main] INFO  bstu.fit.walko.Main  - Program ended________________________________
+15.02.2021 22:55:42 [main] INFO  bstu.fit.walko.Main  - Starting program_____________________________
+15.02.2021 22:55:42 [main] INFO  bstu.fit.walko.admin.Admin  - Create amin___________________
+15.02.2021 22:55:43 [main] INFO  bstu.fit.walko.Main  - Program ended________________________________
+15.02.2021 22:56:36 [main] INFO  bstu.fit.walko.Main  - Starting program_____________________________
+15.02.2021 22:56:36 [main] INFO  bstu.fit.walko.client.Client  - Create client(Sergei)
+15.02.2021 22:56:36 [main] INFO  bstu.fit.walko.client.Client  - Create client(Kazimir)
+15.02.2021 22:56:36 [main] INFO  bstu.fit.walko.client.Client  - Create client(Efim)
+15.02.2021 22:56:36 [main] INFO  bstu.fit.walko.admin.Admin  - Create amin___________________
+15.02.2021 22:56:36 [main] INFO  bstu.fit.walko.Main  - Program ended________________________________
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.Main  - Starting program_____________________________
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.client.Client  - Create client(Sergei)
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.client.Client  - Create client(Kazimir)
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.client.Client  - Create client(Efim)
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.admin.Admin  - Create amin___________________
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.client.Client  - 2341233214 blocked...
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.client.Client  - Payment good
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.client.Client  - Efim balance: 0.073
+15.02.2021 22:58:15 [main] INFO  bstu.fit.walko.Main  - Program ended________________________________

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="shema.xsd">
+    <Card
+            scoreNumber = "111111" balance = "24654.235"  bDay ="3" bMonth ="5" bYear="2002"
+            cardNumber="21432432" SVV = "123"
+            eDay ="2" eMonth ="4" eYear="2007" signature= "cool" tp = "MASTER_CARD">
+</Card>
+    <Card
+            scoreNumber = "222222" balance = "24654.235" bDay ="4" bMonth ="4" bYear="2004"
+            cardNumber="21432452"  SVV = "345"
+            eDay ="12" eMonth ="4" eYear="2010" signature= "infamy" tp = "AMERICAN_EXPRESS">
+    </Card>
+    <Card
+            scoreNumber = "333333" balance = "24654.235" bDay ="5" bMonth ="5" bYear="2004"
+            cardNumber="21499999" SVV = "678"
+            eDay ="15" eMonth ="5" eYear="2010" signature= "kakaha" tp = "MAESTRO">
+    </Card>
+    <Card
+            scoreNumber = "444444" balance = "24654.235"  bDay ="6" bMonth ="7" bYear="2007"
+            cardNumber="21433463453" SVV = "879"
+            eDay ="18" eMonth ="9" eYear="2017" signature= "bestBoy" tp = "MASTER_CARD">
+    </Card>
+    <Card
+            scoreNumber = "555555" balance = "24654.235" bDay ="26" bMonth ="7" bYear="2019"
+            cardNumber="98789789787"  SVV = "908"
+            eDay ="18" eMonth ="9" eYear="2024" signature= "warrior" tp = "AMERICAN_EXPRESS">
+    </Card>
+    <Card
+            scoreNumber = "666666" balance = "24654.235" bDay ="26" bMonth ="7" bYear="2019"
+            cardNumber="1124134342"  SVV = "444"
+            eDay ="18" eMonth ="9" eYear="2024"  signature= "kitty" tp = "VISA">
+    </Card>
+    <Card
+            scoreNumber = "777777" balance = "0.073" bDay ="26" bMonth ="7" bYear="2019"
+            cardNumber="54643333"  SVV = "787"
+            eDay ="18" eMonth ="9" eYear="2024"  signature= "monkey" tp = "VISA">
+    </Card>
+    <Client
+            name = "Sergei" lastName="Valko" gender="MEN" cardCount="3"
+    >
+    </Client>
+    <Client
+            name = "Kazimir" lastName="Kantor" gender="MEN" cardCount="2"
+    >
+    </Client>
+    <Client
+            name = "Efim" lastName="Kopil" gender="GAY" cardCount="2"
+    >
+    </Client>
+</Bank>
