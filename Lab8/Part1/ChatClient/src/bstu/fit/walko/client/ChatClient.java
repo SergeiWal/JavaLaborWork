@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ChatClient {
 
-    public static final String HOST = "192.168.31.156";
+    public static final String HOST = "10.208.97.124";
     public static final int PORT = 3000;
     private Socket clientSocket;
     private Scanner inMessage;
