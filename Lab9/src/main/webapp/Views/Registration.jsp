@@ -11,8 +11,9 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Registration</h1>
-<form action="/Lab9-1.0/registration" method="get">
+<jsp:include page="Header.jsp"/>
+<h1 style="text-align: center">Registration</h1>
+<form action="/Lab9-1.0/registration" method="get" style="text-align: center">
     <h3>Name:</h3>
     <input type="text" name="name"/><br/>
     <h3>Login:</h3>
@@ -28,8 +29,9 @@
     <input type="password" name="repeat_password"/><br/><br/>
     <input type="submit" value="submit"/><br/>
 </form>
-<form action="login_page" method="get">
+<form action="login_page" method="get" style="text-align: center">
     <input type="submit" value="Login">
 </form>
+<jsp:include page="Footer.jsp"/>
 </body>
 </html>

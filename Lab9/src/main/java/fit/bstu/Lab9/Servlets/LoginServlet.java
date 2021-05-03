@@ -4,6 +4,7 @@ import fit.bstu.Lab9.Classes.Cookies;
 import fit.bstu.Lab9.Classes.Hasher;
 import fit.bstu.Lab9.DB.User;
 import fit.bstu.Lab9.DB.UserService;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
@@ -20,6 +21,9 @@ import javax.xml.transform.Result;
 
 @WebServlet(name = "loginServlet", value = "/login")
 public class LoginServlet extends HttpServlet {
+
+    static final Logger LOGGER = Logger.getLogger(LoginServlet.class);
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         login(req, resp);
@@ -30,7 +34,7 @@ public class LoginServlet extends HttpServlet {
         login(req, resp);
     }
 
-    private void login(HttpServletRequest req, HttpServletResponse resp){
+    private void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html; charset=Cp1251");
         String br = "<br/>";
         PrintWriter out = null;
@@ -55,6 +59,8 @@ public class LoginServlet extends HttpServlet {
                 if(user != null){
                     successLogin(out, user);
                     Cookies.setCookie(resp, user);
+                    LOGGER.info("Login success ...");
+                    req.getRequestDispatcher("home").forward(req, resp);
                 }else{
                     failedLogin(req, resp,out);
                 }
@@ -77,9 +83,10 @@ public class LoginServlet extends HttpServlet {
         out.println("Hello " + user.getName() + "<br/>Your role: " + user.getRole() + "<br/>" + dateString);
     }
 
-    private void failedLogin(HttpServletRequest req, HttpServletResponse resp, PrintWriter out){
-        out.println("Login failed ...<br/>");
-        out.println("<a href=\"Views/Login.jsp\">back</a>");
+    private void failedLogin(HttpServletRequest req, HttpServletResponse resp, PrintWriter out) throws ServletException, IOException {
+       LOGGER.info("Login failed ...");
+        req.setAttribute("error","Not valid login or/and password!");
+        req.getRequestDispatcher("Views/Login.jsp").forward(req,resp);
     }
 
     private User checkUser(User user, List<User> users){

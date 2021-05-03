@@ -31,7 +31,7 @@ public class ResultLoginFilter implements Filter {
         }
 
         if(cookie==null || cookie.equals("")){
-            response.sendRedirect(request.getContextPath() + "/registre-page");
+            response.sendRedirect(request.getContextPath() + "/login_page");
         }
         else {
             filterChain.doFilter(servletRequest, servletResponse);

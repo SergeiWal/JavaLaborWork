@@ -3,6 +3,7 @@ package fit.bstu.Lab9.Servlets;
 import fit.bstu.Lab9.Classes.Hasher;
 import fit.bstu.Lab9.DB.User;
 import fit.bstu.Lab9.DB.UserService;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.sql.Connection;
@@ -17,6 +18,9 @@ import javax.servlet.http.*;
 
 @WebServlet(name = "registrationServlet", value = "/registration")
 public class RegistrationServlet extends HttpServlet {
+
+    static final Logger LOGGER = Logger.getLogger(RegistrationServlet.class);
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
@@ -73,20 +77,24 @@ public class RegistrationServlet extends HttpServlet {
 
                         successRegistration(user, connection);
                         //out.println("Registration success ...");
+                        LOGGER.info("Create new usere ...");
                         RequestDispatcher requestDispatcher = req.getRequestDispatcher("Views/Login.jsp");
                         requestDispatcher.forward(req, resp);
                     }else{
                         out.println("Login or password repeated ...");
+                        LOGGER.info("Registration failed ...");
                     }
                 }
                 else {
                     out.println("Password failed ...");
+                    LOGGER.info("Registration failed ...");
                 }
 
             }
 
         }catch (Exception e){
             out.println("Registration failed ..." + br);
+            LOGGER.info("Registration failed ...");
         }finally {
             out.close();
         }

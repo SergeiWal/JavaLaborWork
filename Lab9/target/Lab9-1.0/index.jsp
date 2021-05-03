@@ -11,6 +11,7 @@
 <a href="hello-servlet">Hello Servlet</a><br/>
 <a href="base_info_page">Base info</a><br/>
 <a href="login_page">Login</a><br/><br/>
+<a href="home">Home</a><br/><br/>
 <form action="getHello" method="get">
     <input type="submit" value="get"/>
 </form><br/>
