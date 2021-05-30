@@ -1,1 +1,1 @@
-<p style="text-align: center">Walko Sergei Alexandrovitch</p>
+<p style="text-align: center">Zubko V V</p>

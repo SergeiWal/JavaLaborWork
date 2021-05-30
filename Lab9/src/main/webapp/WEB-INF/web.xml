@@ -13,7 +13,6 @@
         <listener-class>fit.bstu.Lab9.Servlets.ContextListenir</listener-class>
     </listener>
 
-    
     <filter>
         <filter-name>homeLoginFilter</filter-name>
         <filter-class>fit.bstu.Lab9.filters.ResultLoginFilter</filter-class>

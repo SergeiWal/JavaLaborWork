@@ -5,6 +5,7 @@
   Time: 23:41
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="wsasubmit" uri="../WEB-INF/tld/wsasubmit.tld" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -27,7 +28,7 @@
     <input type="password" name="password"/><br/>
     <h3>Repeat password:</h3>
     <input type="password" name="repeat_password"/><br/><br/>
-    <input type="submit" value="submit"/><br/>
+    <wsasubmit:wsasubmit/>
 </form>
 <form action="login_page" method="get" style="text-align: center">
     <input type="submit" value="Login">
