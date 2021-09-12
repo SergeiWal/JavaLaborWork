@@ -16,6 +16,13 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.jms:javax.jms-api:2.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.mq:imqjmsra:5.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.mq:imqbroker:5.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.mq:imqutil:5.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.mq:imqxm:5.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.mq:jaxm-api:5.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.mq:imq:5.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

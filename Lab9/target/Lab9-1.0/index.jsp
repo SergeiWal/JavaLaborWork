@@ -13,6 +13,8 @@
 <a href="login_page">Login</a><br/><br/>
 <a href="home">Home</a><br/><br/>
 <a href="Views/XMLWork.jsp">XMLWork</a><br/><br/>
+<a href="message">Send Message</a><br/><br/>
+<a href="receiver">Receiver</a><br/><br/>
 <form action="getHello" method="get">
     <input type="submit" value="get"/>
 </form><br/>

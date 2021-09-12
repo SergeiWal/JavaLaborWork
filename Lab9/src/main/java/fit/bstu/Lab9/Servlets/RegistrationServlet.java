@@ -8,8 +8,6 @@ import org.apache.log4j.Logger;
 import java.io.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

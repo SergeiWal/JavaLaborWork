@@ -1,0 +1,28 @@
+<!doctype html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBooks</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+
+    <h1>Delete transport: </h1>
+    <form th:action="@{/deltransport}"
+          th:object="${transportform}" method="post">
+        <p>Type:
+            <input type="text" th:field="*{type}"/>
+        </p>
+        <p>Number:
+            <input type="text" th:field="*{number}"/>
+        </p>
+        <input class="button-main-page" type="submit" value="Delete"/>
+    </form>
+    <div th:if="${errorMessage!=null}"  th:utext="${errorMessage}"
+         style = "color:red;font-style:italic;">
+    </div>
+
+</div>
+</body>
+</html>

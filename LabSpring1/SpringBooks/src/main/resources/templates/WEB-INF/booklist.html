@@ -1,0 +1,31 @@
+<!doctype html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBooks</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Book list</h1>
+<h2>
+    <a href="addbook">Add new book</a>
+    <br/><br/>
+    <a href="delbook">Delete book</a>
+    <br/><br/>
+    <a href="updatebook">Update book</a>
+</h2>
+<br/><br/>
+    <div class="container">
+        <table class="container" border="1">
+            <tr>
+                <th><h1>Title</h1></th>
+                <th><h1>Author</h1></th>
+            </tr>
+            <tr th:each="book: ${books}">
+                <td th:utext="${book.title}">...</td>
+                <td th:utext="${book.author}">...</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

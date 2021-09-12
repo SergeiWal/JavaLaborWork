@@ -1,0 +1,28 @@
+<!doctype html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBooks</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+
+    <h1>New book: </h1>
+    <form th:action="@{/addbook}"
+          th:object="${bookform}" method="post">
+        <p>Title:
+            <input type="text" th:field="*{title}"/>
+        </p>
+        <p>Author:
+            <input type="text" th:field="*{author}"/>
+        </p>
+        <input class="button-main-page" type="submit" value="Add"/>
+    </form>
+    <div th:if="${errorMessage!=null}"  th:utext="${errorMessage}"
+         style = "color:red;font-style:italic;">
+    </div>
+
+</div>
+</body>
+</html>

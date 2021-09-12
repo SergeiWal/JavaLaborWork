@@ -2,25 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243aaffa-7e8a-4f44-a9ec-283a1d0c091d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Tags/PrintTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Tags/WsaSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/XMLWork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/WEB-INF/tld/WsaPrintTable.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/WEB-INF/tld/wsasubmit.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/Lab13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/Hasher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/AddUniCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/DeleteUniCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/LoginPageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/RegistrationCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/RegistrationPageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/WelcomeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/constants/AuthorizationConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/factory/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/commands/factory/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/connection/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/connection/UserConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/exception/CommandError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/exception/ControllerError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/exception/RepositoryError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/filter/WelcomeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/listeners/ContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/models/Uniwer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/repository/UniwerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/repository/dbConstants/UniwerConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/repository/dbConstants/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/java/fit/bstu/walko/Lab13/tests/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/WEB-INF/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/WEB-INF/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/views/Error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/views/Footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/views/Header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/views/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/views/Registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab13/src/main/webapp/views/Welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/Lab14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/EventSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/Guys_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/Guys_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/ObjectREciveSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/ObjectReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/P2PSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/WebListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/java/WebReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab14/src/main/resources/jndi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__javax_jms_javax_jms_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__org_glassfish_mq_imq_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__org_glassfish_mq_imqbroker_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__org_glassfish_mq_imqjmsra_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__org_glassfish_mq_imqutil_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__org_glassfish_mq_imqxm_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/libraries/Maven__org_glassfish_mq_jaxm_api_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/WebReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Servlets/MessageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Servlets/WebListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Servlets/WebReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/resources/jndi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/.idea/artifacts/Lab9_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/.idea/artifacts/Lab9_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/java/fit/bstu/Lab9/Servlets/RegistrationServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/Views/Registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab9/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/Views/Registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/target/Lab9-1.0/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +105,9 @@
       <option name="presentableId" value="Default" />
       <updated>1621939993687</updated>
       <workItem from="1621939995113" duration="82000" />
+      <workItem from="1623703704605" duration="5315000" />
+      <workItem from="1623741947561" duration="1346000" />
+      <workItem from="1624356714723" duration="634000" />
     </task>
     <servers />
   </component>
@@ -69,5 +124,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

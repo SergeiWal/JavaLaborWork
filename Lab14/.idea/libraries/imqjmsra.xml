@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="imqjmsra">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/imqjmsra.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

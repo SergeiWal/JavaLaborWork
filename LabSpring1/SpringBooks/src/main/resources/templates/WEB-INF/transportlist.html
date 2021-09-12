@@ -1,0 +1,34 @@
+<!doctype html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringTransport</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Transport list</h1>
+<h2>
+
+    <a href="addtransport">Add new transport</a>
+    <br/><br/>
+    <a href="deltransport">Delete transport</a>
+    <br/><br/>
+    <a href="updatetransport">Update transport</a>
+</h2>
+<br/><br/>
+<div class="container">
+    <table class="container" border="1">
+        <tr>
+            <th><h1>Type</h1></th>
+            <th><h1>Number</h1></th>
+            <th><h1>Cost</h1></th>
+        </tr>
+        <tr th:each="transport: ${transports}">
+            <td th:utext="${transport.type}">...</td>
+            <td th:utext="${transport.number}">...</td>
+            <td th:utext="${transport.cost}">...</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -50,5 +50,12 @@
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.jms:javax.jms-api:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.mq:imqjmsra:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.mq:imqbroker:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.mq:imqutil:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.mq:imqxm:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.mq:jaxm-api:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.mq:imq:5.0" level="project" />
   </component>
 </module>
